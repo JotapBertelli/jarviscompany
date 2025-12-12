@@ -1,6 +1,6 @@
 # JARVIS COMPANY – Landing Page
 
-Landing page da **JARVIS COMPANY**, especialista em microsites e sistemas de gerenciamento com dashboards para lanchonetes e restaurantes.
+Landing page da **JARVIS COMPANY**, especialista em microsites e sistemas de gerenciamento com dashboards personalizados para diferentes tipos de negócios.
 
 ## Tecnologias
 

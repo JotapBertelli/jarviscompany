@@ -2,9 +2,18 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "JARVIS COMPANY | Microsites e Sistemas para Lanchonetes e Restaurantes",
+  title: "Jarvis Company",
   description:
-    "Desenvolvemos microsites e sistemas de gerenciamento com dashboards completos para lanchonetes e restaurantes aumentarem suas vendas e organizarem o negócio."
+    "Criamos soluções digitais personalizadas com foco em performance e conversão. Microsites profissionais e dashboards inteligentes para escalar seu negócio online.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/logo.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png" }
+    ]
+  }
 };
 
 export default function RootLayout({
@@ -14,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className="bg-slate-950 text-slate-50 antialiased">
+      <body className="bg-white text-slate-900 antialiased">
         {children}
       </body>
     </html>
