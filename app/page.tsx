@@ -353,7 +353,7 @@ export default function Home() {
                 alavancar seu negócio
               </h2>
               <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-                Não é só sobre "estar na internet". É sobre ter uma máquina de
+                Não é só sobre &ldquo;estar na internet&rdquo;. É sobre ter uma máquina de
                 vendas rodando 24/7 e dados na palma da mão para tomar decisões
                 mais inteligentes, todos os dias.
               </p>
